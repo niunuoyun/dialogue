@@ -1,0 +1,8 @@
+single_pronoun 单数人称代词
+multi_pronoun 复数人称代词
+ask_person 询问_人物
+ask_why  询问_原因
+ask_place 询问位置
+ask 询问词
+
+1：规则匹配

@@ -1,0 +1,12 @@
+是谁	ask_person	100
+为什么	ask_why	100
+在哪	ask_place	100
+有哪些	ask	100
+他	single_pronoun	100
+他们	multi_pronoun	100
+她	single_pronoun	100
+她们	multi_pronoun	100
+这个	single_pronoun	100
+这些	multi_pronoun	100
+哪个	single_pronoun	100
+哪些	multi_pronoun	100
