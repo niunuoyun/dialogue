@@ -36,7 +36,7 @@ public class Tokenizer {
     private static final Logger LOGGER = LoggerFactory.getLogger(Tokenizer.class);
 
     private static Forest forest;
-    private static Map<String,Forest> forestMap = new HashMap<>();
+    public static Map<String,Forest> forestMap = new HashMap<>();
     private static StopRecognition stopRecognition = new StopRecognition();
 
     static {
@@ -111,7 +111,7 @@ public class Tokenizer {
     public static void main(String[] args) {
         try {
             QueryGenerate queryCombine = new QueryGenerate();
-            Result result = DicAnalysis.parse("面试助教", forestMap.get("person"));
+            Result result = DicAnalysis.parse("杨幂演过哪些电影", forestMap.get("person"));
 
             List<Term> list = result.getTerms();
             System.out.println(list.toString());
